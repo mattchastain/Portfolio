@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+
+@theme {
+	/* jade */
+	--color-jade-50: #e2fafa;
+	--color-jade-100: #c6e7e7;
+	--color-jade-200: #a6d6d5;
+	--color-jade-300: #86c6c4;
+	--color-jade-400: #66b5b3;
+	--color-jade-500: #4d9c99;
+	--color-jade-600: #397977;
+	--color-jade-700: #275755;
+	--color-jade-800: #123534;
+	--color-jade-900: #001414;
+
+	/* jelly */
+	--color-jelly-50: #ffebe4;
+	--color-jelly-100: #f5cabf;
+	--color-jelly-200: #e7a997;
+	--color-jelly-300: #dc8870;
+	--color-jelly-400: #d16648;
+	--color-jelly-500: #b74d2e;
+	--color-jelly-600: #8f3b23;
+	--color-jelly-700: #672a18;
+	--color-jelly-800: #40180b;
+	--color-jelly-900: #1c0500;
+
+	/* potato */
+	--color-potato-50: #ffefe1;
+	--color-potato-100: #f3d4bd;
+	--color-potato-200: #e7b898;
+	--color-potato-300: #db9c70;
+	--color-potato-400: #d08049;
+	--color-potato-500: #b6672f;
+	--color-potato-600: #8f5024;
+	--color-potato-700: #663818;
+	--color-potato-800: #3f210b;
+	--color-potato-900: #1b0800;
+
+	/* yellow */
+	--color-yellow-50: #fff2dd;
+	--color-yellow-100: #fadab5;
+	--color-yellow-200: #f3c38a;
+	--color-yellow-300: #eeab5e;
+	--color-yellow-400: #e79331;
+	--color-yellow-500: #ce7a18;
+	--color-yellow-600: #a05f10;
+	--color-yellow-700: #734409;
+	--color-yellow-800: #472802;
+	--color-yellow-900: #1d0c00;
+
+	/* tan */
+	--color-tan-50: #f7f3ed;
+	--color-tan-100: #e6dace;
+	--color-tan-200: #d6bead;
+	--color-tan-300: #c7a08a;
+	--color-tan-400: #b87f67;
+	--color-tan-500: #9e604d;
+	--color-tan-600: #7b463c;
+	--color-tan-700: #572f2c;
+	--color-tan-800: #341b1a;
+	--color-tan-900: #120708;
+}
+
+:root {
+	background-color: var(--color-tan-200);
+	font-family: 'Suwannaphum', serif;
+}
+
+body,
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.vertical {
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	letter-spacing: -0.1em;
+}
+
+button {
+	cursor: pointer;
+}
