@@ -4,7 +4,7 @@ export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<nav className='relative flex justify-between shadow-lg top-0 right-0 m-8 bg-tan-100 text-jade-500'>
+		<nav className='relative flex justify-between items-center shadow-lg top-0 right-0 m-8 bg-tan-100 text-jade-500'>
 			<button
 				className={`block md:hidden p-3`}
 				onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
