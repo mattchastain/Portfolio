@@ -80,6 +80,11 @@ html {
 	letter-spacing: -0.1em;
 }
 
-button {
+button, a{
 	cursor: pointer;
+	transition: background-color 400ms
+}
+
+button:hover, a:hover {
+	background-color: var(--color-jelly-400)
 }
