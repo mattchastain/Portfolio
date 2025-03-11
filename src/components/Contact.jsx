@@ -1,5 +1,5 @@
 export default function Contact() {
-	const iconSize = 26;
+	const iconSize = 22;
 	return (
 		<div className='absolute shadow-lg right-0 m-8 flex gap-4 bg-tan-100 rounded-full p-4 py-3 text-jade-500'>
 			<a href='https://github.com/mattchastain'>

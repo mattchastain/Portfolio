@@ -1,16 +1,16 @@
 export default function AboutCard() {
 	return (
-		<div className='absolute shadow-lg h-[750px] w-[550px] bg-tan-100 flex flex-col'>
+		<div className='absolute shadow-lg h-[600px] w-[450px] bg-tan-100 flex flex-col'>
 			<div className='flex flex-col justify-between bg-jade-500 w-[calc(100%-32px)] flex-1 m-4 rounded-4xl p-8 px-14'>
 				<div>
 					<p className='text-lg text-tan-800'>ABOUT</p>
-					<h1 className='text-5xl font-black tracking-wide'>
+					<h1 className='text-4xl font-black tracking-wide'>
 						MATT CHASTAIN
 					</h1>
 				</div>
 				<div className='flex justify-center w-full'>
 					<img
-						className='h-60 w-60 object-cover rounded-full overflow-hidden'
+						className='h-40 w-40 object-cover rounded-full overflow-hidden'
 						src='https://as1.ftcdn.net/jpg/03/98/39/38/1000_F_398393859_wptdKgUNm65jW74wCHfpGuylM8tgCpTz.jpg'
 						alt=''
 					/>
