@@ -1,6 +1,6 @@
 export default function AboutCard() {
 	return (
-		<div className='absolute shadow-lg h-[600px] w-[450px] bg-tan-100 flex flex-col'>
+		<div className='shadow-lg h-[600px] w-[450px] bg-tan-100 flex flex-col'>
 			<div className='flex flex-col justify-between bg-jade-500 w-[calc(100%-32px)] flex-1 m-4 rounded-4xl p-8 px-14'>
 				<div>
 					<p className='text-lg text-tan-800'>ABOUT</p>
