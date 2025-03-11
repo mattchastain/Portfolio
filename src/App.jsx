@@ -1,10 +1,10 @@
-import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 import MainContent from './pages/MainContent';
 
 export default function App() {
 	return (
 		<>
-			<Contact />
+			<Navbar />
 			<MainContent />
 		</>
 	);
